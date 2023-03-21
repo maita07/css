@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.cajaFlotante {
+    background-color: white;
+    padding: 10px;
+    border: solid;
+    border-width: 3px;
+    border-left-width: 2px;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-color: rgb(212, 212, 212);
+}
+
+.cajaFlotante.abajo{
+    border-bottom-width: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.cajaFlotante.arriba{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.aceptar{
+    color: white;
+    background-color: rgb(120, 120, 255);
+    border: none;
+    padding: 4px;
+}
+
+.cancelar{
+    color: white;
+    background-color: grey;
+    border: none;
+    padding: 4px;
+}
